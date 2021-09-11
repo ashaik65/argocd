@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: kaniko 
-        image: ashaik65/hello-kaniko:latest
+        image: ashaik65/hello-kaniko:tagname
         ports: 
         - containerPort: 80 
 --- 
