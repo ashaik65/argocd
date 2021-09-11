@@ -16,7 +16,7 @@ spec:
       - name: my-nginx
         image: ashaik65/myweb:1
         imagePullSecrets:
-    - name: myregistrykey
+          - name: myregistrykey
         ports:
         - containerPort: 80
  
