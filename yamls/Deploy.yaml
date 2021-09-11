@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: foo
-  namespace: awesomeapps
+  namespace: default
 spec:
   containers:
     - name: foo
