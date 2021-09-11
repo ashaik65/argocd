@@ -11,14 +11,13 @@ spec:
     metadata:
       labels:
         run: my-image
-    spec:
-      containers:
-      - name: my-nginx
-        image: ashaik65/myweb:1
-        imagePullSecrets:
-          - name: myregistrykey
-        ports:
-        - containerPort: 80
+spec:
+  containers:
+    - name: my-image
+      image: ashaik65/myweb:1
+  imagePullSecrets:
+    - name: myregistrykey        
+  
  
  
 
