@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-nginx
-        image: ashaik65/myweb:2
+        image: ashaik65/hello-kaniko-test:latest
         ports:
         - containerPort: 80
 
