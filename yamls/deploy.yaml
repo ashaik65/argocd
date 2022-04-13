@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-nginx
-        image: sangram7749/hello-kaniko
+        image: sangram7749/maven-project:10
         ports:
         - containerPort: 80
 
