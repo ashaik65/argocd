@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-apps
-        image: httpd
+        image: sangram7749/hello-kaniko:1
         ports:
         - containerPort: 80
 
